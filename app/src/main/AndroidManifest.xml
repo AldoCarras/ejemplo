@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="grupo2.inf391">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/log"
+        android:label="Model app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Colas_MM1" />
+        <activity android:name=".Colas_MMS" />
+        <activity android:name=".Colas_MM1C" />
+        <activity android:name=".Colas_MMSC" />
+        <activity android:name=".Colas_MM1K" />
+        <activity android:name=".Colas_MMSK" />
+        <activity android:name=".Inventarios_CCD" />
+        <activity android:name=".Inventarios_CSD" />
+        <activity android:name=".Inventarios_MCD" />
+        <activity android:name=".Inventarios_MSD" />
+        <activity android:name=".Acerca" />
+    </application>
+
+</manifest>

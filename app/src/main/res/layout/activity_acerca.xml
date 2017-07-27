@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grupo2.inf391.Acerca"
+    android:orientation="vertical"
+    android:background="#263238">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INF-391 SIMULACION DE SISTEMAS "
+                android:textColor="#009688"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Integrantes: "
+                android:textColor="#009688"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Camacho Lugones Maddizon"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Carrasco Fernandez Aldo"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Canaza Mamani Monica"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cerrogrande Morales Tahere"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

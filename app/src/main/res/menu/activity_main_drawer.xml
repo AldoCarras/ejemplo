@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_poison"
+            android:icon="@drawable/ic_action_name"
+            android:title="Distribucion de poison" />
+        <item
+            android:id="@+id/nav_colas"
+            android:icon="@drawable/ic_action_name"
+            android:title="Modelo de colas" />
+        <item
+            android:id="@+id/nav_inventarios"
+            android:icon="@drawable/ic_action_name"
+            android:title="Modelos de inventarios" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/acercade"
+                android:icon="@drawable/acercade"
+                android:title="Acerca de"
+                />
+        </menu>
+    </item>
+
+</menu>
